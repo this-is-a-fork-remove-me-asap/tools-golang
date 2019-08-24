@@ -102,6 +102,7 @@ func (f *Formatter) File(file *rdf2v1.File) (id goraptor.Term, err error) {
 
 		}
 	}
+
 	for _, dep := range file.FileDependency {
 		if file.FileDependency != nil {
 			fdId, err := f.File(file.FileDependency)
@@ -113,7 +114,8 @@ func (f *Formatter) File(file *rdf2v1.File) (id goraptor.Term, err error) {
 			}
 		}
 	}
-	if file.FileRelationship != nil {
+
+  if file.FileRelationship != nil {
 		frId, err := f.Relationship(file.FileRelationship)
 		if err != nil {
 			return id, err

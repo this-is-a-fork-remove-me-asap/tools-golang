@@ -42,7 +42,8 @@ func collectCreationInfo(doc2v1 *spdx.Document2_1) *CreationInfo {
 }
 
 func collectExternalDocumentRef(doc2v1 *spdx.Document2_1) *ExternalDocumentRef {
-	if doc2v1.CreationInfo.ExternalDocumentReferences != nil {
+	
+  if doc2v1.CreationInfo.ExternalDocumentReferences != nil {
 		stdEdr := ExternalDocumentRef{
 
 			ExternalDocumentId: Str(doc2v1.CreationInfo.ExternalDocumentReferences[0]),

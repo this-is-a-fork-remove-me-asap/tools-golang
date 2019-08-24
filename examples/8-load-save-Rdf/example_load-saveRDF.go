@@ -36,6 +36,7 @@ func main() {
 	}
 
 }
+
 func Parse2_1(input string) (*rdf2v1.Document, *rdf2v1.Snippet, error) {
 	parser := rdf2v1.NewParser(input)
 	defer fmt.Printf("RDF Document parsed successfully.\n")

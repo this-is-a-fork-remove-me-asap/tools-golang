@@ -80,6 +80,7 @@ func (f *Formatter) Document(doc *rdf2v1.Document) (docId goraptor.Term, err err
 }
 func (f *Formatter) ExternalDocumentRef(edr *rdf2v1.ExternalDocumentRef) (id goraptor.Term, err error) {
 	id = f.NodeId("edr")
+
 	if edr != nil {
 
 		if err = f.setNodeType(id, rdf2v1.TypeExternalDocumentRef); err != nil {

@@ -13,6 +13,7 @@ func (f *Formatter) Annotation(an *rdf2v1.Annotation) (id goraptor.Term, err err
 	if err = f.setNodeType(id, rdf2v1.TypeAnnotation); err != nil {
 		return
 	}
+
 	err = f.addPairs(id,
 		Pair{"annotationDate", an.AnnotationDate.Val},
 		Pair{"rdfs:comment", an.AnnotationComment.Val},

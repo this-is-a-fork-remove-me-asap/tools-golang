@@ -3,7 +3,8 @@ package spdxlib
 
 import (
 	"fmt"
-	"github.com/spdx/tools-golang/spdx"
+
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
 )
 
 // ValidateDocument2_1 returns an error if the Document is found to be invalid, or nil if the Document is valid.

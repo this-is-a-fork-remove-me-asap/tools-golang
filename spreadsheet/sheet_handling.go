@@ -1,10 +1,10 @@
 package spdx_xls
 
 import (
-	"github.com/spdx/tools-golang/spdx"
-	"github.com/spdx/tools-golang/spreadsheet/common"
-	"github.com/spdx/tools-golang/spreadsheet/parse"
-	"github.com/spdx/tools-golang/spreadsheet/write"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spreadsheet/common"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spreadsheet/parse"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spreadsheet/write"
 	"github.com/xuri/excelize/v2"
 )
 

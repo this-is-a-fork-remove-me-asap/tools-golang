@@ -4,7 +4,7 @@ package parser2v1
 import (
 	"testing"
 
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
 )
 
 // ===== Helper function tests =====

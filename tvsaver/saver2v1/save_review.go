@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
 )
 
 func renderReview2_1(rev *spdx.Review2_1, w io.Writer) error {

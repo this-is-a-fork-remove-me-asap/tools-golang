@@ -4,10 +4,11 @@ package spdx_xls
 
 import (
 	"fmt"
-	"github.com/spdx/tools-golang/spdx"
-	"github.com/spdx/tools-golang/spreadsheet/common"
-	"github.com/xuri/excelize/v2"
 	"io"
+
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spreadsheet/common"
+	"github.com/xuri/excelize/v2"
 )
 
 // Save2_2 takes an SPDX Document (version 2.2) and an io.Writer, and writes the document to the writer as an XLSX file.

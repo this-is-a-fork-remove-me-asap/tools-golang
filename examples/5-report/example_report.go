@@ -12,9 +12,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/spdx/tools-golang/reporter"
-	"github.com/spdx/tools-golang/spdxlib"
-	"github.com/spdx/tools-golang/tvloader"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/reporter"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdxlib"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/tvloader"
 )
 
 func main() {

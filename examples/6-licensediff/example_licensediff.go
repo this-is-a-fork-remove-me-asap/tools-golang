@@ -13,12 +13,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/spdx/tools-golang/spdx"
 	"os"
 
-	"github.com/spdx/tools-golang/licensediff"
-	"github.com/spdx/tools-golang/spdxlib"
-	"github.com/spdx/tools-golang/tvloader"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
+
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/licensediff"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdxlib"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/tvloader"
 )
 
 func main() {

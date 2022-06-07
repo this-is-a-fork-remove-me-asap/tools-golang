@@ -8,7 +8,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
 )
 
 func renderPackage2_2(pkg *spdx.Package2_2, w io.Writer) error {

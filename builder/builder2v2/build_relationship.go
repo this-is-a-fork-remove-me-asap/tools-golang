@@ -5,7 +5,7 @@ package builder2v2
 import (
 	"fmt"
 
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
 )
 
 // BuildRelationshipSection2_2 creates an SPDX Relationship (version 2.2)

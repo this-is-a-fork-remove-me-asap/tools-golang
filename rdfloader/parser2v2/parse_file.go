@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	gordfParser "github.com/spdx/gordf/rdfloader/parser"
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
 )
 
 // returns a file instance and the error if any encountered.

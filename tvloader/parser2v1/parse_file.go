@@ -5,7 +5,7 @@ package parser2v1
 import (
 	"fmt"
 
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
 )
 
 func (parser *tvParser2_1) parsePairFromFile2_1(tag string, value string) error {

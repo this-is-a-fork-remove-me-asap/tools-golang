@@ -3,8 +3,9 @@
 package spdxlib
 
 import (
-	"github.com/spdx/tools-golang/spdx"
 	"sort"
+
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
 )
 
 // SortElementIDs sorts and returns the given slice of ElementIDs

@@ -5,11 +5,12 @@ package spdx_yaml
 import (
 	"bytes"
 	"fmt"
-	"github.com/google/go-cmp/cmp"
 	"os"
 	"testing"
 
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/google/go-cmp/cmp"
+
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
 )
 
 func TestLoad2_2(t *testing.T) {

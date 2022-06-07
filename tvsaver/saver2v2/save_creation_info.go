@@ -4,8 +4,9 @@ package saver2v2
 
 import (
 	"fmt"
-	"github.com/spdx/tools-golang/spdx"
 	"io"
+
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
 )
 
 func renderCreationInfo2_2(ci *spdx.CreationInfo2_2, w io.Writer) error {

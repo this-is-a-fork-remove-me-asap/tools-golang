@@ -3,10 +3,11 @@
 package rdfloader
 
 import (
-	"github.com/spdx/gordf/rdfloader"
-	"github.com/spdx/tools-golang/rdfloader/parser2v2"
-	"github.com/spdx/tools-golang/spdx"
 	"io"
+
+	"github.com/spdx/gordf/rdfloader"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/rdfloader/parser2v2"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
 )
 
 // Takes in a file Reader and returns the pertaining spdx document

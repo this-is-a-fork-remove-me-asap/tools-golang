@@ -3,10 +3,11 @@
 package parser2v2
 
 import (
-	gordfParser "github.com/spdx/gordf/rdfloader/parser"
-	"github.com/spdx/tools-golang/spdx"
 	"reflect"
 	"testing"
+
+	gordfParser "github.com/spdx/gordf/rdfloader/parser"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
 )
 
 func Test_getLastPartOfURI(t *testing.T) {

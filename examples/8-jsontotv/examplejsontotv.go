@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/spdx/tools-golang/json"
-	"github.com/spdx/tools-golang/tvsaver"
+	spdx_json "github.com/this-is-a-fork-remove-me-asap/tools-golang/json"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/tvsaver"
 )
 
 func main() {

@@ -3,9 +3,10 @@ package parse
 import (
 	"encoding/csv"
 	"fmt"
-	"github.com/spdx/tools-golang/spdx"
-	"github.com/spdx/tools-golang/spreadsheet/common"
 	"strings"
+
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spreadsheet/common"
 )
 
 func ProcessPerFileInfoRows(rows [][]string, doc *spdx.Document2_2) error {

@@ -2,8 +2,9 @@ package write
 
 import (
 	"fmt"
-	"github.com/spdx/tools-golang/spdx"
-	"github.com/spdx/tools-golang/spreadsheet/common"
+
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spreadsheet/common"
 	"github.com/xuri/excelize/v2"
 )
 

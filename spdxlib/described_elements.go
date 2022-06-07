@@ -5,7 +5,8 @@ package spdxlib
 
 import (
 	"fmt"
-	"github.com/spdx/tools-golang/spdx"
+
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
 )
 
 // GetDescribedPackageIDs2_1 returns a slice of ElementIDs for all Packages

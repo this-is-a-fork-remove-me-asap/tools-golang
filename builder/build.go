@@ -6,9 +6,10 @@ package builder
 
 import (
 	"fmt"
-	"github.com/spdx/tools-golang/builder/builder2v1"
-	"github.com/spdx/tools-golang/builder/builder2v2"
-	"github.com/spdx/tools-golang/spdx"
+
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/builder/builder2v1"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/builder/builder2v2"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
 )
 
 // ===== 2.1 builder =====

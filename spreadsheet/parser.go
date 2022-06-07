@@ -5,9 +5,10 @@ package spdx_xls
 import (
 	"errors"
 	"fmt"
-	"github.com/spdx/tools-golang/spdx"
-	"github.com/xuri/excelize/v2"
 	"io"
+
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
+	"github.com/xuri/excelize/v2"
 )
 
 // Load2_2 takes in an io.Reader and returns an SPDX document.

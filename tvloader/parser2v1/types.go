@@ -3,7 +3,7 @@
 package parser2v1
 
 import (
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
 )
 
 type tvParser2_1 struct {

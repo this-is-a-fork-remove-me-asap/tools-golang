@@ -9,7 +9,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
 )
 
 // GetVerificationCode2_1 takes a slice of files and an optional filename

@@ -5,7 +5,7 @@ package builder2v2
 import (
 	"time"
 
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
 )
 
 // BuildCreationInfoSection2_2 creates an SPDX Package (version 2.2), returning that
@@ -21,7 +21,7 @@ func BuildCreationInfoSection2_2(creatorType string, creator string, testValues 
 	creators := []spdx.Creator{
 		// add builder as a tool
 		{
-			Creator:     "github.com/spdx/tools-golang/builder",
+			Creator:     "github.com/this-is-a-fork-remove-me-asap/tools-golang/builder",
 			CreatorType: "Tool",
 		},
 		{

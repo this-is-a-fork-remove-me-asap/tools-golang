@@ -4,10 +4,11 @@ package parser2v2
 
 import (
 	"fmt"
+	"strings"
+
 	gordfParser "github.com/spdx/gordf/rdfloader/parser"
 	"github.com/spdx/gordf/rdfwriter"
-	"github.com/spdx/tools-golang/spdx"
-	"strings"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
 )
 
 // parsing the relationship that exists in the rdf document.
@@ -40,7 +41,7 @@ func (parser *rdfParser2_2) parseRelationship(triple *gordfParser.Triple) (err e
 	parser.cache[triple.Object.ID].Color = GREY
 
 	// setting state color to black to indicate when we're done parsing this node.
-	defer func(){parser.cache[triple.Object.ID].Color = BLACK}();
+	defer func() { parser.cache[triple.Object.ID].Color = BLACK }()
 
 	for _, subTriple := range parser.nodeToTriples(triple.Object) {
 		switch subTriple.Predicate.ID {

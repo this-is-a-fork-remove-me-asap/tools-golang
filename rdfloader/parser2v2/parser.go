@@ -5,9 +5,10 @@ package parser2v2
 import (
 	"errors"
 	"fmt"
+
 	gordfParser "github.com/spdx/gordf/rdfloader/parser"
 	gordfWriter "github.com/spdx/gordf/rdfwriter"
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
 )
 
 // returns a new instance of rdfParser2_2 given the gordf object and nodeToTriples mapping

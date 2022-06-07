@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
 )
 
 // ===== 2.1 Builder top-level Document test =====
@@ -57,8 +57,8 @@ func TestBuild2_1CreatesDocument(t *testing.T) {
 	if doc.CreationInfo.Creators[1].Creator != "John Doe" {
 		t.Errorf("expected %s, got %+v", "John Doe", doc.CreationInfo.Creators[1])
 	}
-	if doc.CreationInfo.Creators[0].Creator != "github.com/spdx/tools-golang/builder" {
-		t.Errorf("expected %s, got %+v", "github.com/spdx/tools-golang/builder", doc.CreationInfo.Creators[0])
+	if doc.CreationInfo.Creators[0].Creator != "github.com/this-is-a-fork-remove-me-asap/tools-golang/builder" {
+		t.Errorf("expected %s, got %+v", "github.com/this-is-a-fork-remove-me-asap/tools-golang/builder", doc.CreationInfo.Creators[0])
 	}
 	if doc.CreationInfo.Created != "2018-10-19T04:38:00Z" {
 		t.Errorf("expected %s, got %s", "2018-10-19T04:38:00Z", doc.CreationInfo.Created)
@@ -468,8 +468,8 @@ func TestBuild2_2CreatesDocument(t *testing.T) {
 	if doc.CreationInfo.Creators[1].Creator != "John Doe" {
 		t.Errorf("expected %s, got %+v", "John Doe", doc.CreationInfo.Creators[1])
 	}
-	if doc.CreationInfo.Creators[0].Creator != "github.com/spdx/tools-golang/builder" {
-		t.Errorf("expected %s, got %+v", "github.com/spdx/tools-golang/builder", doc.CreationInfo.Creators[0])
+	if doc.CreationInfo.Creators[0].Creator != "github.com/this-is-a-fork-remove-me-asap/tools-golang/builder" {
+		t.Errorf("expected %s, got %+v", "github.com/this-is-a-fork-remove-me-asap/tools-golang/builder", doc.CreationInfo.Creators[0])
 	}
 	if doc.CreationInfo.Created != "2018-10-19T04:38:00Z" {
 		t.Errorf("expected %s, got %s", "2018-10-19T04:38:00Z", doc.CreationInfo.Created)

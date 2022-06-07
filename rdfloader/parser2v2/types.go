@@ -4,7 +4,7 @@ package parser2v2
 
 import (
 	gordfParser "github.com/spdx/gordf/rdfloader/parser"
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
 )
 
 type rdfParser2_2 struct {
@@ -27,16 +27,16 @@ type rdfParser2_2 struct {
 type Color int
 
 const (
-	GREY Color = iota // represents that the node is being visited
-	WHITE             // unvisited node
-	BLACK             // visited node
+	GREY  Color = iota // represents that the node is being visited
+	WHITE              // unvisited node
+	BLACK              // visited node
 )
 
 type nodeState struct {
 	// object will be pointer to the parsed or element being parsed.
 	object interface{}
 	// color of a state represents if the node is visited/unvisited/being-visited.
-	Color  Color
+	Color Color
 }
 
 type AnyLicenseInfo interface {

@@ -5,11 +5,12 @@ package parser2v2
 import (
 	"errors"
 	"fmt"
+	"strings"
+
 	gordfParser "github.com/spdx/gordf/rdfloader/parser"
 	"github.com/spdx/gordf/rdfwriter"
 	urilib "github.com/spdx/gordf/uri"
-	"github.com/spdx/tools-golang/spdx"
-	"strings"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
 )
 
 // a uri is of type baseURI#fragment or baseFragment/subFragment

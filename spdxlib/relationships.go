@@ -2,7 +2,7 @@
 
 package spdxlib
 
-import "github.com/spdx/tools-golang/spdx"
+import "github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
 
 // FilterRelationships2_1 returns a slice of Element IDs returned by the given filter closure. The closure is passed
 // one relationship at a time, and it can return an ElementID or nil.

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/spdx/tools-golang/spdx"
-	"github.com/spdx/tools-golang/utils"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/utils"
 )
 
 // BuildFileSection2_2 creates an SPDX File (version 2.2), returning that

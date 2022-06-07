@@ -13,8 +13,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/spdx/tools-golang/builder"
-	"github.com/spdx/tools-golang/tvsaver"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/builder"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/tvsaver"
 )
 
 func main() {
@@ -57,7 +57,7 @@ func main() {
 
 		// note that builder will also add the following, in addition to the
 		// Creator defined above:
-		// Creator: Tool: github.com/spdx/tools-golang/builder
+		// Creator: Tool: github.com/this-is-a-fork-remove-me-asap/tools-golang/builder
 
 		// Finally, you can define one or more paths that should be ignored
 		// when walking through the directory. This is intended to omit files

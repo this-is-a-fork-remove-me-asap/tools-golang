@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/spdx/tools-golang/spdx"
+	"github.com/this-is-a-fork-remove-me-asap/tools-golang/spdx"
 )
 
 // Save2_2 takes an SPDX Document (version 2.2) and an io.Writer, and writes the document to the writer in JSON format.

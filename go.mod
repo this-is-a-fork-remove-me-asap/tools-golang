@@ -1,4 +1,4 @@
-module github.com/spdx/tools-golang
+module github.com/this-is-a-fork-remove-me-asap/tools-golang
 
 go 1.13
 
